@@ -80,6 +80,7 @@ color: steelblue;
 #portrait{
 position: relative;
 top: -300px;
+margin-bottom: -110px;
 }
 
 /* ab hier ausschließlich Contact */
