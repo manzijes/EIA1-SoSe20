@@ -24,8 +24,8 @@ body{
         font-size: 15px;
         font-weight: bolder;
         text-align: left;
-        margin-top: 350px;
-        margin-left: 200px;
+        margin-top: 160px;
+        margin-left: 100px;
         transform: translate(-50%, -50%);
         color: whitesmoke;
     }
@@ -33,24 +33,24 @@ body{
 img[alt=Muschel1]{
     display: inline-block;
     position: absolute;
-    margin-top: 600px;
-    margin-left: -200px;
+    margin-top: 300px;
+    margin-left: -140px;
     transform: translate(-50%, -50%);
     }
 
 img[alt=Muschel2]{
     display: inline-block;
     position: absolute;
-    margin-top: 600px;
-    margin-left: 70px;
+    margin-top: 300px;
+    margin-left: 30px;
     transform: translate(-50%, -50%);
     }
 
 img[alt=Muschel3]{
     display: inline-block;
     position: absolute;
-    margin-top: 600px;
-    margin-left: 340px;
+    margin-top: 300px;
+    margin-left: 200px;
     transform: translate(-50%, -50%);
     }  
 
