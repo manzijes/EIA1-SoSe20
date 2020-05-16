@@ -1,52 +1,60 @@
 body{
-    background-image: url("images/bg.png");
-    font-family: sans-serif;
+    background-image: url("bg.png");
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    text-decoration: none;
 }
-   
-.images{
-    width: 800px;
+.container{
     position: relative;
-    top: -250px;
-    margin: 10px;
-    border-radius: 10px 10px 10px 10px;
+    color: whitesmoke;
+    margin: 0 auto;
+    width: 700px;
 }
 
-.header-text{
-    font-size: 130pt;
-    font-weight: bold;
-    color: white;
-    position: relative;
-    top: -390px;
-    text-align: center;
-    letter-spacing: -18px;
+.headline2{
+    font-size: 20pt;
+    color: whitesmoke;
+    font-weight: bolder;
+    position: absolute;
+    top: 45%;
+    left: 40.5%;
+    transform: translate(-50%, -50%);
 }
 
 .text{
-    margin: auto;
-    width: 25%;
-    border: 5px;
-    padding: 10px;
-    font-size: 15px;
+    font-size: 10pt;
+    color: whitesmoke;
+    position: absolute;
+    top: 58%;
+    left: 55%;
+    transform: translate(-50%, -50%);
     text-align: left;
-    position: relative;
-    bottom: 490px;
-    left: 50px;
-    color: white;
 }
 
-.headline{
-    margin: auto;
-    width: 25%;
-    border: 5px;
-    padding: 10px;
-    font-size: 20px;
-    text-align: left;
-    position: relative;
-    bottom: 430px;
-    left: 50px;
-    color: white;
+.social{
+    position: absolute;
+    top: 79%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
+
+.social:hover{
+    opacity: 0.5;
+}
+
+.images{
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 10px;
+}
+
+.headline1{
+    font-size: 110pt;
+    color: whitesmoke;
+    letter-spacing: -10px;
+    font-weight: bolder;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .navibereich{
@@ -59,9 +67,12 @@ border-radius: 10px 10px 10px 10px;
 padding: 5px 10px 5px 5px;
 }
 
-.circle{
-    width: 800px;
-    margin: -10px;
+.circle {
+    position: relative;
+    display: inline-block;
+    margin: -20px;
+    width: 700px;
+    margin-bottom: 50px;
 }
 
 .navibereich a{
@@ -75,12 +86,29 @@ a:hover{
 color: steelblue;
 }
 
+a.active{
+    color: steelblue;
+    text-decoration: underline;
+}
+
+a.activepage{
+    color: steelblue;
+    font-weight: bolder;
+}
+
+#navi1{
+border-right: solid 1px white;
+}
+
+#navi2{
+border-right: solid 1px white;
+}
+
 /* ab hier ausschließlich About Me */
 
 #portrait{
 position: relative;
-top: -300px;
-margin-bottom: -110px;
+margin-bottom: 80px;
 }
 
 /* ab hier ausschließlich Contact */
@@ -90,7 +118,7 @@ margin-bottom: -110px;
     font-weight: bold;
     position: relative;
     text-align: left;
-    margin-top: -300px;
+    margin-top: 70px;
     margin-left: 210px;
 }
 
@@ -119,33 +147,4 @@ margin-bottom: -110px;
     width: 55px;
     padding: 5px 5px 5px 5px;
     margin-left: 210px;
-}
-
-.social{
-    position: absolute;
-    top: 340px;
-    margin-left: 48.2%;
-    z-index: 9999;
-}
-
-.social:hover{
-    opacity: 0.5;
-}
-
-a.active{
-    color: steelblue;
-    text-decoration: underline;
-}
-
-a.activepage{
-    color: steelblue;
-    font-weight: bolder;
-}
-
-#navi1{
-border-right: solid 1px white;
-}
-
-#navi2{
-border-right: solid 1px white;
 }
