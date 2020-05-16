@@ -28,7 +28,7 @@ body{
     width: 25%;
     border: 5px;
     padding: 10px;
-    font-size: 17px;
+    font-size: 15px;
     text-align: left;
     position: relative;
     bottom: 490px;
@@ -61,7 +61,7 @@ padding: 5px 10px 5px 5px;
 
 .circle{
     width: 800px;
-    margin: -10px auto;
+    margin: -10px;
 }
 
 .navibereich a{
@@ -124,7 +124,7 @@ margin-bottom: -110px;
 .social{
     position: absolute;
     top: 340px;
-    margin-left: 48.5%;
+    margin-left: 48.2%;
     z-index: 9999;
 }
 
