@@ -15,12 +15,17 @@ body{
         margin-left: auto;
         margin-right: auto;
         margin-bottom: auto;
-        margin-top: 220px;
+        margin-top: 370px;
     }
 
     img[alt=Band]{
-    display: inline-block;
-    position: absolute;
-    margin-left: 180px;
-    margin-top: 140px;
+        display: inline-block;
+        position: absolute;
+        margin-left: 180px;
+        margin-top: 130px;
+    }
+
+    .video{
+        display: inline-block;
+        position: absolute;
     }
