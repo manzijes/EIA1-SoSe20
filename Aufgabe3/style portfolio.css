@@ -115,36 +115,53 @@ margin-bottom: 50px;
 
 #kontakt{
     color: steelblue;
+    display: block;
     font-weight: bold;
-    position: relative;
-    text-align: left;
-    margin-top: 70px;
-    margin-left: 210px;
+    margin-top: 50px;
+    margin-left: -835px;
 }
 
-.formular{
-    background: gray;
-    font-size: 9pt;
-    color: white;
-    width: 200px;
-    padding: 5px 5px 5px 5px;
-    margin-left: 210px;
-    text-align: left;
-}
-
-.datenschutz{
-    font-size: 9pt;
-    color: gray;
-    position: relative;
-    text-align: left;
-    margin-left: 210px;
-}
-
-.absenden{
-    font-size: 9pt;
-    color: white;
-    background: gray;
-    width: 55px;
-    padding: 5px 5px 5px 5px;
-    margin-left: 210px;
-}
+.form{
+    margin-top: 20px;
+    margin-left: -700px;
+    }
+    
+    #Vorname, #Nachname, #Email{
+        background-color: whitesmoke;
+        font-size: 9pt;
+        width: 200px;
+        padding: 5px 5px 5px 5px;
+        margin-left: -50px;
+    }
+    
+    #Nachricht{
+        background-color: whitesmoke;
+        font-size: 9pt;
+        width: 350px;
+        padding: 5px 5px 20px 5px;
+        margin-left: 100px;
+    }
+    
+    #absenden{
+        background-color: whitesmoke;
+        color: black;
+        font-size: 9pt;
+        width: 70px;
+        padding: 5px 5px 5px 5px;
+        margin-left: -200px;
+    }
+    
+    ::placeholder{
+        color: black;
+    }
+    
+    .Datenschutz{
+        font-size: 9pt;
+        color: grey;
+        margin-left: 50px;
+    }
+    
+    input{
+        display: inline-block;
+        margin-bottom: 10px;
+    }
