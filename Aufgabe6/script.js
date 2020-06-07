@@ -52,4 +52,4 @@ function AustraliaFunction() {
     document.getElementById("headline4").innerHTML = "107.5";
     document.getElementById("chart").setAttribute("style", "height: 6.75%");
 }
-//# sourceMappingURL=script2.js.map
+//# sourceMappingURL=script.js.map
