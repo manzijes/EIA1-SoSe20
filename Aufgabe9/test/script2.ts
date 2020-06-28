@@ -17,10 +17,10 @@ for (i = 0; i < hide.length; i++) {
   }
 }
 
-var list = document.querySelector('ul');
-list.addEventListener('click', function(ev) {
-  if (ev.target.tagName === 'LI') {
-    ev.target.classList.toggle('checked');
+var list = document.querySelector("ul");
+list.addEventListener("click", function(ev) {
+  if (ev.target.tagName === "LI") {
+    ev.target.classList.toggle("checked");
   }
 }, false);
 
@@ -46,8 +46,8 @@ function newListItem() {
   span.appendChild(txt);
   li.appendChild(span);
 
-  for (i = 0; i < close.length; i++) {
-    close[i].onclick = function() {
+  for (i = 0; i < hide.length; i++) {
+    hide[i].onclick = function() {
       var div = this.parentElement;
       div.style.display = "none";
     };
