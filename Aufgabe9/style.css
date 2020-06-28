@@ -85,3 +85,7 @@ body{
   .addBtn:hover {
     background-color: #bbb;
   }
+
+  #count{
+    margin-bottom: 10pt;
+  }

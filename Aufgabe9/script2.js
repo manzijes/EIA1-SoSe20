@@ -51,5 +51,7 @@ function newListItem() {
             div.style.display = "none";
         };
     }
+    var countingGuy = document.querySelector("#total");
+    countingGuy.innerHTML = myToDoList.length;
 }
-//# sourceMappingURL=script copy.js.map
+//# sourceMappingURL=script2.js.map
