@@ -1,4 +1,4 @@
-var myToDoList = document.getElementsByTagName("LI");
+ar myToDoList = document.getElementsByTagName("LI");
 var i;
 for (i = 0; i < myToDoList.length; i++) {
   var span = document.createElement("SPAN");
@@ -8,19 +8,24 @@ for (i = 0; i < myToDoList.length; i++) {
   myToDoList[i].appendChild(span);
 }
 
+var x: number = 6;
+test();
+
 var hide = document.getElementsByClassName("close");
 var i;
 for (i = 0; i < hide.length; i++) {
   hide[i].onclick = function() {
     var div = this.parentElement;
-    div.style.display = "none";
-  }
+    div.hidden = true;
+    x--;
+    test();
+  };
 }
 
-var list = document.querySelector('ul');
-list.addEventListener('click', function(ev) {
-  if (ev.target.tagName === 'LI') {
-    ev.target.classList.toggle('checked');
+var list = document.querySelector("ul");
+list.addEventListener("click", function(ev) {
+  if (ev.target.tagName === "LI") {
+    ev.target.classList.toggle("checked");
   }
 }, false);
 
@@ -39,6 +44,7 @@ function newListItem() {
     document.getElementById("list").appendChild(li);
   }
   document.getElementById("myInput").value = "";
+  x++;
 
   var span = document.createElement("SPAN");
   var txt = document.createTextNode("\u00D7");
@@ -52,6 +58,10 @@ function newListItem() {
       div.style.display = "none";
     };
   }
-  var countingGuy = document.querySelector("#total");
-  countingGuy.innerHTML = myToDoList.length;
+  test();
+}
+
+function test() {
+  var allTasks = document.querySelector("#total");
+  allTasks.innerHTML = x;
 }

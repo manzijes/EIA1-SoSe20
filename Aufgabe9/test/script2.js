@@ -8,12 +8,16 @@ for (i = 0; i < myToDoList.length; i++) {
     span.appendChild(closeBtn);
     myToDoList[i].appendChild(span);
 }
+var x = 6;
+test();
 var hide = document.getElementsByClassName("close");
 var i;
 for (i = 0; i < hide.length; i++) {
     hide[i].onclick = function () {
         var div = this.parentElement;
-        div.style.display = "none";
+        div.hidden = true;
+        x--;
+        test();
     };
 }
 var list = document.querySelector("ul");
@@ -40,6 +44,7 @@ function newListItem() {
         document.getElementById("list").appendChild(li);
     }
     document.getElementById("myInput").value = "";
+    x++;
     var span = document.createElement("SPAN");
     var txt = document.createTextNode("\u00D7");
     span.className = "close";
@@ -51,7 +56,10 @@ function newListItem() {
             div.style.display = "none";
         };
     }
-    var countingGuy = document.querySelector("#total");
-    countingGuy.innerHTML = myToDoList.length;
+    test();
+}
+function test() {
+    var allTasks = document.querySelector("#total");
+    allTasks.innerHTML = x;
 }
 //# sourceMappingURL=script2.js.map
