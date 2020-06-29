@@ -17,8 +17,6 @@ for (i = 0; i < hide.length; i++) {
   hide[i].onclick = function() {
     var div = this.parentElement;
     div.hidden = true;
-    x--;
-    test();
   };
 }
 
@@ -56,6 +54,8 @@ function newListItem() {
     hide[i].onclick = function() {
       var div = this.parentElement;
       div.style.display = "none";
+      x--;
+      test();
     };
   }
   test();
