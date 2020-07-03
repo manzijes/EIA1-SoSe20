@@ -40,9 +40,9 @@ function newListItem() {
     }
     else {
         document.getElementById("list").appendChild(li);
+        x++;
     }
     document.getElementById("myInput").value = "";
-    x++;
     var span = document.createElement("SPAN");
     var txt = document.createTextNode("\u00D7");
     span.className = "close";
