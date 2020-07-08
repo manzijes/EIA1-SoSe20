@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: rgba(215, 215, 215);
+    background: steelblue;
 }
 
 main {
@@ -9,8 +9,12 @@ main {
     text-align: center;
 }
 
+#title{
+    color: whitesmoke;
+}
+
 #counter {
-    color: grey;
+    color: whitesmoke;
 }
 
 .inputGroup {
